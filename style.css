@@ -1,0 +1,216 @@
+/*   
+Theme Name: Basic Blank
+Theme URI: http://
+Description: It goes with everything.
+Author: Your Name Here
+Author URI: http://
+Version: 1.0
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, custom-header, custom-menu, custom-background
+*/ 
+
+/* Reset browser defaults, etc. */
+
+* { margin: 0; padding: 0; }
+body { background: white; font: 14px/1.4 Helvetica, Arial, sans-serif; color: #000; }
+.screen-reader { position: absolute; left: -9999px; top: -9999px; }
+.clear { clear: both; }
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both; }
+.group { zoom: 1; /* For IE 6/7 (trigger hasLayout) */ }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+strong, b, strong *, b * { font-weight: bold !important; }
+*:focus { outline: none; }
+
+/* Essential styles */
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0 0 10px 0; }
+h1 {  }
+h2 {  }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+
+p { margin: 0 0 10px 0; }
+a {  }
+a:hover {  } 
+
+blockquote {  }
+blockquote p {  }
+
+ul, ol { margin: 0 0 10px 0; }
+ul li, ol li { margin-left: 20px; }
+
+pre {  }
+code, tt {  }
+
+/* Basic layout  */
+
+#container { width: 960px; margin: 20px auto; }
+
+header {  }
+header h1 {  }
+.description {  }
+
+.entry {  }
+
+.main-nav {  } 
+
+.post {  }
+.post header {  }
+
+.pub-meta {  }
+.post-meta {  }
+
+.sticky {  }
+
+.pagination-nav {  }
+.next {  }
+.prev {  }
+
+#sidebar {  }
+
+footer {  }
+
+/* Image styles */
+
+.alignleft { float: left; margin: 10px 10px 10px 0; }
+.alignright { float: right; margin: 10px 0 10px 10px; }
+.aligncenter { margin-left: auto; margin-right: auto; display: block; }
+
+a img { border: none; }
+
+.wp-caption {  }
+.wp-caption-text {  }
+.gallery-caption {  }
+
+/* Archive & form styles */
+
+h3.archive-title
+
+.searchform {  }
+.s {  }
+.searchsubmit {  }
+
+form {  }
+input[type=text] {  }
+textarea {  }
+
+/* Comment styles */
+
+.comments-nav {  }
+.prev-comments {  }
+.nav-comments {  }
+
+section#comments { }
+#respond {  }
+form#commentform {  }
+p.comment-form-author { }
+p.comment-form-author label {  }
+p.comment-form-author input#author {  }
+p.comment-form-email { }
+p.comment-form-email label {  }
+p.comment-form-email input#email {  }
+p.comment-form-url { }
+p.comment-form-url label {  }
+p.comment-form-url input#url {  }
+p.comment-form-comment { }
+p.comment-form-comment label {  }
+p.comment-form-comment textarea#comment {  }
+form#commentform input[type="submit"] {  }
+form#commentform input[type="submit"]:hover {  }
+a.comment-reply-link {  }
+a#cancel-comment-reply-link {  }
+
+p.must-log-in {  }
+p.logged-in-as {  }
+p.comment-notes {  }
+p.form-allowed-tags {  }
+p.form-allowed-tags code {  }
+
+ol.commentlist { list-style: none; }
+ol.commentlist li {  }
+ol.commentlist .alt {  }
+ol.commentlist .odd {  }
+ol.commentlist .even {  }
+ol.commentlist .parent {  }
+ol.commentlist .thread-alt {  }
+ol.commentlist .thread-odd {  }
+ol.commentlist .thread-even {  }
+ol.commentlist li ul.children .alt {  }
+ol.commentlist li ul.children .odd {  }
+ol.commentlist li ul.children .even {  }
+
+ol.commentlist .vcard {  }
+ol.commentlist .vcard cite.fn {  }
+ol.commentlist .vcard span.says {  }
+ol.commentlist .vcard img.photo {  }
+ol.commentlist .vcard img.avatar {  }
+ol.commentlist .vcard img.avatar-32 {  }
+ol.commentlist .vcard cite.fn a.url {  }
+
+ol.commentlist .comment-meta {  }
+ol.commentlist .comment-meta a {  }
+ol.commentlist .commentmetadata {  }
+ol.commentlist .commentmetadata a {  }
+
+ol.commentlist .parent {  }
+ol.commentlist .comment {  }
+ol.commentlist .children {  }
+ol.commentlist .pingback {  }
+ol.commentlist .bypostauthor {  }
+ol.commentlist .byuser {  }
+ol.commentlist .comment-author {  }
+ol.commentlist .comment-author-admin {  }
+
+ol.commentlist li.comment * {  } /* p, em, strong, blockquote, ul, ol, etc.) */
+ol.commentlist li.comment div.reply {  }
+ol.commentlist li.comment div.reply a {  }
+
+ol.commentlist li.comment p {  }
+ol.commentlist li.comment ul {  }
+ol.commentlist li.comment ul.children li {  }
+ol.commentlist li.comment ul.children li.alt {  }
+ol.commentlist li.comment ul.children li.bypostauthor {  }
+ol.commentlist li.comment ul.children li.byuser {  }
+ol.commentlist li.comment ul.children li.comment {  }
+ol.commentlist li.comment ul.children li.comment-author-admin {  }
+ol.commentlist li.comment ul.children li.depth-2 {  }
+ol.commentlist li.comment ul.children li.depth-3 {  }
+ol.commentlist li.comment ul.children li.depth-4 {  }
+ol.commentlist li.comment ul.children li.depth-5 {  }
+ol.commentlist li.comment ul.children li.odd {  }
+
+ol.commentlist li.pingback {  }
+
+/* Print styles */
+
+@media print {
+
+body { width: 100%; margin: 0; font: 12pt/1.5 Helvetica, Arial, sans-serif; color: #000; background: white; }
+h1, h2 { page-break-before: auto; }
+h1 { font-size: 24pt; }
+h2 { font-size: 20pt; }
+h3 { font-size: 16pt; }
+h4,h5,h6 { font-size: 12pt; }
+p { page-break-inside: avoid; }
+code, pre, tt { font: 12pt Courier, monospace; } 
+a { text-decoration: none; color: #000; }
+blockquote { margin: 20px; }
+img { display: block; margin: 10px 0; border: 0; }
+a img { border: 0; }
+table { border: 1px; text-align:left; }
+th { font-weight: bold; }
+th, td { padding: 5px; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; } 
+
+nav, .searchform, #sidebar, footer, .noprint { display: none; }
+.post a:link:after, .post a:visited:after { content: ""attr(href)""; font-size: 80%; margin-left: 7px; }
+header h1 a:link:after, header h1 a:visited:after, .post h2 a:link:after, .post h2 a:visited:after, .post-meta a:link:after, .post-meta a:visited:after, .pub-meta a:link:after, .pub-meta a:visited:after { content: ""; }
+#comments { page-break-before: always; }
+	
+} /* END print media */
